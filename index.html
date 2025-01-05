@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>住所検索</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h2>郵便番号をもとに住所を検索します</h2>
-    <p>
-        <label>
-            郵便番号：<br>
-            <input id="postalCode" type="text" placeholder="1234567（ハイフンなし）">
+    <h2 class="adress-top">郵便番号をもとに住所を検索します</h2>
+
+    <!-- 住所の入力 -->
+    <form>
+        <label class="adress-label" for="postalCode">
+            郵便番号：<input id="postalCode" type="text" placeholder="1234567（ハイフンなし）">
+            <br><button class="btn float" id="search" type="button">検索</button>
         </label>
-    </p>
-    <p>
-        <button id="search">検索</button>
-    </p>
+    </form>
+
+    <!-- 結果の表示 -->
     <div id="result"></div>
 </body>
 

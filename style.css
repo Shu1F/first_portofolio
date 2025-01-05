@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  position: relative;
+}
+body .adress-top {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+body form {
+  font-size: 2rem;
+  text-align: center;
+}
+body form label {
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+body form label input {
+  margin: 0 auto;
+  font-size: 1rem;
+  padding: 0.25rem 0 0.25rem 0.5rem;
+  width: 18.75rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  vertical-align: middle;
+}
+body form label .btn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: white;
+  font-weight: 37.5rem;
+  padding: 0.625rem 2.5rem;
+  border: 1px solid black;
+  transition: all 0.3s;
+  border-radius: 0.3125rem;
+}
+body form label .btn.float:hover {
+  background-color: black;
+  border-radius: 0.3125rem;
+  color: white;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+body #result {
+  margin-top: 8.5rem;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
